@@ -23,13 +23,13 @@ CREATE TABLE Torneos (
 );
 
 INSERT INTO Torneos (NombreTorneo, Año, Resultado, ID_Jugador) VALUES
-                                                                   ('Wimbledon', 2003, 'Campeón', 1),  -- Roger Federer
-                                                                   ('Roland Garros', 2008, 'Campeón', 2),  -- Rafael Nadal
-                                                                   ('US Open', 2011, 'Finalista', 3),  -- Novak Djokovic
-                                                                   ('Australian Open', 1969, 'Campeón', 4),  -- Rod Laver
-                                                                   ('Roland Garros', 1974, 'Campeón', 5),  -- Björn Borg
-                                                                   ('US Open', 1990, 'Finalista', 6),  -- Pete Sampras
-                                                                   ('Wimbledon', 1992, 'Campeón', 7);  -- Andre Agassi
+                                                                   ('Wimbledon', 2003, 'Campeón', 1),
+                                                                   ('Roland Garros', 2008, 'Campeón', 2),
+                                                                   ('US Open', 2011, 'Finalista', 3),
+                                                                   ('Australian Open', 1969, 'Campeón', 4),
+                                                                   ('Roland Garros', 1974, 'Campeón', 5),
+                                                                   ('US Open', 1990, 'Finalista', 6),
+                                                                   ('Wimbledon', 1992, 'Campeón', 7);
 
 
 
