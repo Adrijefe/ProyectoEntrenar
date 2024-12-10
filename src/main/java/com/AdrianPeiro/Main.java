@@ -30,6 +30,7 @@ public class Main {
             String consultaJugadoresConMasDe10GrandSlam = "SELECT Nombre, País, Títulos_Grand_Slam " +
                             "FROM Jugadores " +
                             "WHERE Títulos_Grand_Slam > 10";
+
             ResultSet resultSet2 = statement.executeQuery(consultaJugadoresConMasDe10GrandSlam);
             System.out.println("Jugadores con más de 10 títulos de Grand Slam: ");
             while (resultSet2.next()) {
@@ -54,7 +55,7 @@ public class Main {
             System.out.println("Jugadores activos: ");
             while (resultSet4.next()) {
                 System.out.println(resultSet4.getString("Nombre")  +
-                        resultSet4.getString("Años_Actividad") + ")");
+                        resultSet4.getString("Años_Actividad"));
             }
             System.out.println();
 
