@@ -17,7 +17,7 @@ CREATE TABLE AñosActividad (
                                ID_Años INTEGER PRIMARY KEY,
                                AñoInicio INTEGER NOT NULL,
                                AñoFin INTEGER NOT NULL,
-                               FOREIGN KEY (ID_Años) REFERENCES Jugadores(ID_Jugador) UNIQUE
+                               FOREIGN KEY (ID_Años) REFERENCES Jugadores(ID_Jugador)
 );
 
 CREATE TABLE Torneos (
